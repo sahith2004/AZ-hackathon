@@ -1,0 +1,21 @@
+from selenium import webdriver
+
+# Start the Selenium WebDriver instance
+
+driver = webdriver.Chrome(r'C:\Users\shanm\Downloads\chromedriver_win32')
+# Navigate to the website
+driver.get("https://leetcode.com/problemset/all/")
+
+# Find the elements containing the links
+link_elements = driver.find_elements_by_tag_name("a")
+
+# Extract the links from the elements that contain a specific keyword
+keyword = "problems"
+links = [link.get_attribute("href") for link in link_elements if keyword in link.get_attribute("href")]
+
+# Print or process the extracted links
+for link in links:
+    print(link)
+
+# Close the WebDriver
+driver.quit()
