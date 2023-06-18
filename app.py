@@ -145,7 +145,7 @@ app.config['SECRET_KEY'] = 'your-secret-key'
 
 
 class SearchForm(FlaskForm):
-    search = StringField('Enter your search term')
+    search = StringField('')
     submit = SubmitField('Search')
 
 
