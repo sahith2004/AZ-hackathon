@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cross Coding Platform</title>
+        
+        
+        <link rel="stylesheet"  type="text/css" href="{{url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+      <div class="title-name"><span class="az">AZ</span> Cross Coding Platform</div>
+        <div class="form">
+          <form method="POST">
+            {{ form.hidden_tag() }}
+            {{ form.search.label }}
+            {{ form.search() }}
+            {{ form.submit() }}
+          </form>
+        </div>
+        <div class="platforms">
+          <div class="title-name platform-name">Codeforces</div>
+          <div class="title-name platform-name">Spoj</div>
+          <div class="title-name platform-name">Leet Code</div>
+          
+        </div>
+        
+        <div class = "results">
+          {% for result in results %}
+           {% if result.length != 0 %}
+            {% if result['Question Link'][0:30] == 'https://leetcode.com/problems/' %}
+            <div class="div-leetcode">
+            <a href="{{result['Question Link']}}" target="_blank"><div class="result result-leetcode">{{result['Question Link'][30:][:-2]}}<span class="tag">LEETCODE</span></div></a>
+            <i class="fa-regular fa-bookmark"></i>
+            </div>
+            {% endif %}
+           {% endif %}
+           
+           
+           
+          {% endfor %}
+          {% for result in results_codeforces %}
+          {% for qname in qnames_codeforces %}
+           {% if result.length != 0 %}
+           <div class="div-codeforces">
+           <a href="{{result['Question Link']}}" class="result_codeforces" target="_blank"><div class="result" >{{qname['Question Link']}}<span class="tag">CODEFORCES</span></div></a>
+           <i class="fa-regular fa-bookmark"></i>
+          </div>
+          {% endif %}
+         
+          
+          {% endfor %}
+         {% endfor %}
+        
+         {% for result in results_spoj %}
+          {% for qname in qnames_spoj %}
+           {% if result.length != 0 %}
+           <div class="div-spoj">
+           <a href="{{result['Question Link']}}" class="result_spoj" target="_blank"><div class="result" >{{qname['Question Link']}}<span class="tag">SPOJ</span></div></a>
+           <i class="fa-regular fa-bookmark"></i>
+          </div>
+          {% endif %}
+          
+         
+          {% endfor %}
+         {% endfor %}
+        </div>
+        
+        
+     
+        
+        <script type="text/javascript" src="{{ url_for('static', filename = 'index.js') }}"></script>
+
+      </body>
+</html>

@@ -1,0 +1,133 @@
+SHAMAN - Shamans
+MMIND - The Game of Master-Mind
+DECORATE - Decorate the wall
+WPUZZLES - Word Puzzles
+KPMAZE - Maze
+BSHEEP - Build the Fence
+OFBEAT - Officers on the Beat
+DANCE - The Gordian Dance
+ALICEBOB - Alice and Bob
+AGGRCOW - Aggressive cows
+CYLINDER - Cylinder
+TCOUNT3 - Counting Triangles III
+DELCOMM - DEL Command
+PALACE - Accomodate the palace
+ARCTAN - Use of Function Arctan
+EQDIV - Equidivisions
+LEMON - Lemon Tree in the Moonlight
+FRACTION - Sort fractions
+DIV15 - Divisibility by 15
+COVER - K-path cover
+MINCOUNT - Move To Invert
+PALIN - The Next Palindrome
+MULTIPLY - Fast Multiplication Again
+SUDOKU - Sudoku
+DICE1 - Dice Contest
+EMPTY - Empty Cuboids
+GAME - Game schedule required
+PSTRING - Remove The String
+ROMAN - Converting number formats
+CLTZ - Collatz
+IMPORT1 - The Importance
+JRIDE - Jill Rides Again
+CRYPTO2 - The Bytelandian Cryptographer (Act II)
+SUMFOUR - 4 values whose sum is 0
+NSYSTEM - Numeral System
+HKNAP - Huge Knap Sack
+HOLIDAY1 - Getting Rid of the Holidays (Act I)
+EIGHTS - Triple Fat Ladies
+JASIEK - Jasiek
+TRIPART - Triangle Partitioning
+BOOK - Booklets
+MLAND - Land for Motorways
+COMCB - Complete Chess Boards
+APRIME - Anti-prime Sequences
+PON - Prime or Not
+FPOLICE - Fool the Police
+PALSEC - Choosing a Palindromic Sequence
+HANGOVER - Hangover
+EMPODIA - Empodia
+RNUMBER - Random Number
+BULK - The Bulk!
+MENU - Menu
+MTWALK - Mountain Walking
+COINS - Bytelandian gold coins
+UFAST - Unite Fast
+EXCHNG - Exchanges
+COMMEDIA - Commedia dell Arte
+TOUR - Fake tournament
+TOMJERRY - Tom and Jerry
+RENT - Rent your airplane and make money
+SHOP - Shopping
+HASHIT - Hash it!
+TRANK - Team Rankings
+SERVICE - Mobile Service
+PHDISP - The Philosophical Dispute
+CTRICK - Card Trick
+STORE - Store-keeper
+CISTFILL - Fill the Cisterns
+PT07H - Search in XML
+REPEATS - Repeats
+ARCHPLG - The Archipelago
+CUBERT - Cube Root
+SQRROOT - Square Root
+CRSCNTRY - Cross-country
+BABTWR - Tower of Babylon
+HIGH - Highways
+BILLIARD - Billiard
+SEQPAR - Partition the sequence
+TREASURY - Royal Treasury
+ROBOT - Robot Number M
+SOLIT - Solitaire
+CHRIS - On the Way to Find Chris
+KPPOLY - Projections Of A Polygon
+POKER - Poker
+RECTNG1 - Rectangles
+LIAR - Truth or not
+SEQ1 - 01 Sequence
+HIKE - Hike on a Graph
+VFMUL - Very Fast Multiplication
+EQU2 - Yet Another Equation
+EN - Entrapment
+HAREFOX - Hares and Foxes
+TPERML - Permutation generator
+FASHION - Fashion Shows
+PT07A - Play with a Tree
+PRLGAME - A Game of Pearls
+TOANDFRO - To and Fro
+CMPLS - Complete the Sequence!
+SEQ2 - Another Sequence Problem
+ROCKETS - Rockets
+TRANSP - Transposing is Fun
+LONER - The Loner
+NECKLACE - Necklace
+LOSTCT - The Secret of a Lost City
+TRANSMIT - Transmitters
+CZ_PROB1 - Summing to a Square Prime
+OPTM - Optimal Marks
+DRAGON - Greedy Hydra
+SPLIT - Split Windows
+PAINTTMP - Paint templates
+STEAD - Steady Cow Assignment
+ASSIGN - Assignments
+CAKE - Birthday Cake
+BINSTIRL - Binary Stirling Numbers
+EDIT3 - Editor II
+QTREE - Query on a tree
+UPSUB - Up Subsequence
+PT07Z - Longest path in a tree
+PROPKEY - The Proper Key
+ABWORDS - AB-words
+PT07B - The Easiest Problem
+TFSETS - Triple-Free Sets
+FIRM - Goods
+LIFTS - Lifts
+BLUEEQ3 - Help Blue Mary Please! (Act III)
+RAIN2 - Outside it is now raining
+FTOUR - Free Tour
+SORTING - Sorting is easy
+SPIN - Spin
+SHAMAN - Shamans
+MMIND - The Game of Master-Mind
+DECORATE - Decorate the wall
+WPUZZLES - Word Puzzles
