@@ -29,8 +29,9 @@
           <div class="title-name platform-name">Leet Code</div>
           
         </div>
-        <div class="results-div">
-        <div class = "results">
+        {% if(results.length != 0 or results_codeforces.length!=0 or results_spoj!=0) %}
+         <div class="results-div">
+         <div class = "results">
           {% for result in results %}
            {% if result.length != 0 %}
             {% if result['Question Link'][0:30] == 'https://leetcode.com/problems/' %}
@@ -71,6 +72,7 @@
          {% endfor %}
         </div>
         </div>
+        {% endif %}
       </div>
         
         
