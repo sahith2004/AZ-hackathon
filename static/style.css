@@ -210,6 +210,13 @@ body{
   }
   .results::-webkit-scrollbar {
     width: 10px;
+
+  }
+  .footer-main{
+    height: 5vh;
+    color: white;
+    margin: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .results::-webkit-scrollbar-thumb {
